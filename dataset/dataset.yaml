@@ -1,0 +1,13 @@
+train: D:/AIR-CANVAS/dataset/train/images
+val: D:/AIR-CANVAS/dataset/valid/images
+test: D:/AIR-CANVAS/dataset/test/images
+
+nc: 6
+names: ['dicham', 'dilui', 'dinhanh', 'dunglai', 'rephai', 'retrai']
+
+roboflow:
+  workspace: wayahetampil
+  project: hand-line-gesture
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wayahetampil/hand-line-gesture/dataset/1
